@@ -19,5 +19,6 @@ from django.urls import path, include
 #このプロジェクト全体でアクセス可能なURLのリスト
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('web_test/', include('web_test.urls'))
+    path('web_test/', include('web_test.urls')),
+    path('newyear/', include('newyear.urls'))
 ]
